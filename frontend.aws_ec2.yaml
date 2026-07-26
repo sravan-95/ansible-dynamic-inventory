@@ -12,7 +12,7 @@ filters:
   tag:Name: frontend
   instance-state-name : running
   keyed_groups:
-    - key: ec2_tags.Name
+    - key: tags.Name
       separator: ''
 # plugin: amazon.aws.aws_ec2
 
