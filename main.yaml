@@ -1,11 +1,6 @@
-- name: configure frontend server
+- name: configure nginx server
   hosts: frontend
   become: yes
-  serial: 2
   tasks:
-  - name: ping
-    ping:
-  - name: install nginx
-    package:
-      name: nginx
-      state: present
+   - name: ping
+     ping: 
