@@ -13,7 +13,7 @@ filters:
   instance-state-name : running
   keyed_groups:
     - key: tags.Name
-      separator: ''
+  separator: ''
 # plugin: amazon.aws.aws_ec2
 
 # regions:
