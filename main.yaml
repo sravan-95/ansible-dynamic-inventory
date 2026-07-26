@@ -1,6 +1,7 @@
 - name: configure nginx server
   hosts: frontend
   become: yes
+  serial: 2
   tasks:
    - name: ping
      ping: 
